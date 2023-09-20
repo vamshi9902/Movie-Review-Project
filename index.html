@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE APP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="search">
+        <input id="searchBar" type="search" placeholder="SEARCH...">
+        <button onclick="searchMovie()">SEARCH</button>
+        <div class="" id="loader"></div>
+    </div>
+    <div class="movieData" id="data">
+        <div class="contentText">
+            <h1 id="Title"></h1><br><br>
+            <p id="Released"></p>
+            <p id="Runtime"></p>
+            <p id="Genre"></p>
+            <p id="Director"></p>
+            <p id="Writer"></p>
+            <p id="Actors"></p>
+            <p id="Plot"></p>
+            <p id="Language"></p>
+            <p id="Country"></p>
+            <p id="Awards"></p>
+            <p id="imdbRating"></p>
+            <p id="BoxOffice"></p>
+        </div>
+        <figure id="imgContent"></figure>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(180deg, #000, #081c4b, #000);
+    color: whitesmoke;
+    font-family: calibri;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.movieData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contentText{
+    width: 40%;
+    line-height: 25px;
+}
+input{
+    padding: 10px 30px;
+    width: 500px;
+}
+button{
+    padding: 12px 40px;
+    border: none;
+    font-weight: bold;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+}
+img{
+    height: 500px;
+    width: 350px;
+    visibility: hidden;
+}
+.loader{
+    height: 80px;
+    width:  80px;
+    border-radius: 50%;
+    border: 6px solid rgba(0, 0, 0, 0.2);
+    border-top: 6px solid white;
+    animation: spin 0.5s linear infinite;
+    margin: auto;
+    margin-top: 400px;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
